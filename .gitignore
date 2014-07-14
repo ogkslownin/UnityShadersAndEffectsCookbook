@@ -1,0 +1,13 @@
+﻿UnityShadersAndEffectsCookbook/Library*
+UnityShadersAndEffectsCookbook/Library/*
+UnityShadersAndEffectsCookbook/Temp*
+UnityShadersAndEffectsCookbook/Temp/*
+UnityShadersAndEffectsCookbook/Assets/NGUI/Examples*
+
+!*.asset
+*.csproj
+*.sln
+Assembly*
+.DS_Store
+*.userprefs
+/iOS_build
