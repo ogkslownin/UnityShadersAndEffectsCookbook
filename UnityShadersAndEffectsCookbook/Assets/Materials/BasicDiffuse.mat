@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BasicDiffuse
-  m_Shader: {fileID: 4800000, guid: c4d3c8da362794a2f85e10b61d99d219, type: 3}
+  m_Shader: {fileID: 4800000, guid: 12be1df208d3a444ab5f53cd953604d2, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -37,12 +37,12 @@ Material:
     m_Floats:
       data:
         first:
-          name: _MySliderValue
-        second: 0
-      data:
-        first:
           name: _AmbientColor
         second: 2
+      data:
+        first:
+          name: _MySliderValue
+        second: 1
       data:
         first:
           name: _MyFloatValue
@@ -56,6 +56,10 @@ Material:
         first:
           name: _EmissiveColor
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AmbientColor
+        second: {r: 1, g: 0, b: 0, a: 1}
       data:
         first:
           name: _MyVectorValue
