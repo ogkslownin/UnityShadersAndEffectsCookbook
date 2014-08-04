@@ -16,7 +16,7 @@ Shader "GUI/Text Shader" {
 		Lighting Off Cull Off ZTest Always ZWrite Off Fog { Mode Off }
 		Blend SrcAlpha OneMinusSrcAlpha
 
-		Pass {	
+		Pass {
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
